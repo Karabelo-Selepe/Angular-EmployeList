@@ -9,20 +9,20 @@
       "salary": "R 12, 000"
     },
     {
-      "id": 3,
-      "name": "Tshepo",
-      "surname": "Molete",
-      "department": "IT",
-      "position": "Support",
-      "salary": "R 12, 000"
-    },
-    {
       "id": 4,
       "name": "Molemi",
       "surname": "Mabuza",
       "department": "IT",
       "position": "Admin",
       "salary": "R 10, 000"
+    },
+    {
+      "id": 5,
+      "name": "Karabelo",
+      "surname": "Selepe",
+      "department": "IT",
+      "position": "Digital Solutions Developer",
+      "salary": "R0,00"
     }
   ],
   "comments": [

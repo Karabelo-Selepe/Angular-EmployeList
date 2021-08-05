@@ -1,0 +1,27 @@
+<!--Sign In Page-->
+
+<div class="login-wrapper">
+    <div class="card">
+        <div class="card-body">
+            <form class="form-signin" (ngSubmit)="onSubmit(signInForm)" #signInForm="ngForm">
+                <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+             <!--- <label for="inputEmail" class="sr-only">h</label> -->
+                <input type="email" class="form-control" id="inputEmail" name="email" placeholder="name@example.com" required autofocus ngModel> 
+            
+                <!-- <label for="inputPassword" class="sr-only">H</label> -->
+                <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Password" required ngModel>
+                
+                <button class="w-100 btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                
+                <div class="alert alert-danger" role="alert" *ngIf="isFormInvalid">
+                    Please fill all fields
+                </div>
+
+                <div class="alert alert-danger" role="alert" *ngIf="areCredentialsInvalid">
+                    Invalid email or password
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
